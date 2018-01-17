@@ -27,3 +27,6 @@ for url in urls:
     open(filename, 'wb').write(data)
     # and log to screen
     print("Downloaded " + filename)
+
+# close file
+file.close
